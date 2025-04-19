@@ -9,9 +9,17 @@ The name is forged from two truths:
 - Pledge — The act of binding oneself to a cause, as a knight might kneel before their liege, or a crafter might take up tools in service of the greater good.
 - Ledger — The record. Eternal, impartial, and sacred. It holds the names of those who have sworn themselves to the Order.
 
-Together, they form *Pledger*: a place where purpose is written and identity is honored.
+Together, they form _Pledger_: a place where purpose is written and identity is honored.
 
 Behind every request lies a story; behind every name, a vow. These names are kept in a living record of all who have answered the call, whether active in the field or sleeping in silence, waiting to rise once more.
+
+## Getting Started
+
+Just run the following command to start the local server:
+
+```bash
+deno task serve
+```
 
 ## Contributing
 
