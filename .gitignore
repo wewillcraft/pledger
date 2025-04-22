@@ -83,6 +83,7 @@ $RECYCLE.BIN/
 .env.test.local
 .env.production.local
 .env.local
+.envrc
 
 # Fresh build directory
 _fresh/
