@@ -1,0 +1,23 @@
+# See documentation at:
+# - https://developer.fluro.io
+# - https://marketplace.visualstudio.com/items?itemName=humao.rest-client
+
+
+@baseUrl = http://localhost:8000
+@contentType = application/json
+
+###
+# Get all Users
+GET {{baseUrl}}/api/users
+content-type: {{contentType}}
+
+###
+# Create new User
+POST {{baseUrl}}/api/users
+content-type: {{contentType}}
+
+{
+  "email": "example@gmail.com",
+  "password": "sample",
+  "gender": "male"
+}
